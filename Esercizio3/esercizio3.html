@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Esercizio 3</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h2>Registrazione utente</h2>
+    <form method="POST">
+        <table>
+        <tr>
+            <td width="300">
+                <b>Indirizzo email</b><br>
+                <input type="email" name="email" placeholder="Email" size="38">
+            </td>
+            <td>
+                <b>Conferma indirizzo e-mail</b><br>
+                <input type="email" name="email2" placeholder="Email" size="38">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Password</b><br>
+                <input type="password" name="password" placeholder="Password" size="38">
+            </td>
+            <td>
+                <b>Conferma password</b><br>
+                <input type="password" name="password2" placeholder="Password" size="38">
+            </td>
+        </tr>
+        
+
+    </table>
+    <hr color="red" width="600" align="left">
+    <br>
+    <table>
+        <tr>
+            <td width="208">
+                <b>Nome</b><br>
+                <input type="text" name="nome" placeholder="Nome">
+            </td>
+            <td width="208">
+                <b>Secondo Nome</b><br>
+                <input type="text" name="nome2" placeholder="Secondo nome">
+            </td>
+            <td width="208">
+                <b>Cognome</b><br>
+                <input type="text" name="cognome" placeholder="Cognome">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Sesso</b><br>
+                <select name="sex">
+                    <option value="maschio">Maschio</option>
+                    <option value="femmina">Femmina</option>
+                </select>
+            </td>
+            <td colspan="2">
+                <b>Città ed indirizzo</b><br>
+                <table width="300">
+                <input type="text" name="citta" placeholder="Città e indirizzo" size="52"></table>
+            </td>
+        </tr>
+        
+    </table>
+    <hr color="red" width="600" align="left"><br>
+    
+    <p>
+    <table>
+       
+        <tr>
+            <td>
+                <b>Interessi</b><br>
+                <table border="1" width="296">
+                     <td>
+                        <input type="checkbox" name="interessi" value="Videogame">Videogame<br>
+                        <input type="checkbox" name="interessi" value="Arte">Arte<br>
+                        <input type="checkbox" name="interessi" value="Fotografia">Fotografia<br>
+                        <input type="checkbox" name="interessi" value="Alcool">Alcool<br>
+                    </td>
+                </table>
+           
+            </td>
+            
+            
+            <td>
+               <b>Sistema utilizzato</b><br>
+                
+                <table width="296" border="1">
+                    <td>
+                   <input type="radio" name="sistema" value="Windows">Microsoft Windows<br>
+                    <input type="radio" name="sistema" value="Linux">Linux<br>
+                    <input type="radio" name="sistema" value="Mac">MacOS<br>
+                    <input type="radio" name="sistema" value="Dos">Microsoft DOS<br>
+                </td>
+                </table>
+            </td>
+        </tr>
+       
+    </table></p>
+
+    
+    <table>
+    
+        <td width="225"></td>
+        <td>
+            <span><center>Accetti le condizioni?</center></span>
+
+        </td>
+    
+    </table>
+    <table>
+    
+        <td width="225"></td>
+        <td>
+            <input type="checkbox" name="condizioni" value="accetto">Accetto
+        </td>
+
+    
+    <br>
+</table>
+<table>
+        <td width="520"></td>
+         <td><input type="submit" value="Registrati"></td>
+        
+  
+</table>
+    </form>
+</body>
+</html>
