@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Esercizio 4</title>
+    <style>
+        body,html,* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .content {
+            position: relative;
+            border: 2px solid gray;
+            margin: 2rem;
+            padding: 1rem;
+            height: 90vh;
+        }
+        .is-position-absolute {
+            position: absolute;
+        }
+        .corner-top-left {
+            top: -30px;
+            left: -30px;
+        }
+
+        .corner-top-right {
+            right: -24px;
+            top: -27px;
+        }
+
+        .corner-bottom-right {
+            right: -21px;
+            bottom: -27px;
+        }
+
+        .corner-bottom-left {
+            left: -37px;
+            bottom: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+
+        <img class="is-position-absolute corner-top-left" src="./top-left.png" alt="top-left" />
+        <img class="is-position-absolute corner-top-right" src="./top-right.png" alt="top-right" />
+        <img class="is-position-absolute corner-bottom-left" src="./bottom-left.png" alt="bottom-left" />
+        <img class="is-position-absolute corner-bottom-right" src="./bottom-right.png" alt="bottom-right" />
+    </div>
+</body>
+
+</html>

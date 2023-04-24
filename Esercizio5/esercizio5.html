@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Esercizio5</title>
+    <style>
+      body,
+      html,
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(221, 72, 20);
+        font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+      }
+
+      .content{
+        padding: 4rem;
+      }
+
+      .window{
+        height: fit-content;
+        width: fit-content;
+        position: relative;     
+      }
+
+      .window-content{
+        height: 50vh;
+        width: 70vh;
+        min-height: 10vh;
+        min-width: 31vw;
+        background-color: rgb(79, 77, 77);
+        
+        outline: none;
+        color: rgb(201, 201, 201);
+      }
+
+      .toolbar{
+        background-color: rgb(61, 61, 61);
+        padding: 0.5rem 0;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        min-width: 31vw;
+        position: relative;
+      }
+
+      .toolbar svg{
+        fill:grey;
+      }
+
+      .toolbar .toolbar-icons{
+        position: absolute;
+        top: 3px;
+        left:3px;
+      }
+
+      .toolbar .close{
+        fill:rgb(221, 72, 20);
+      }
+
+      .toolbar .close:hover{
+        fill:rgb(145, 49, 14)
+      }
+
+      .toolbar svg:hover{
+        fill:rgb(101, 95, 95)
+      }
+
+      .toolbar .toolbar-name{
+        color: rgb(220, 218, 218);
+        
+        font-size: 0.8rem;
+      }
+      
+    
+
+      
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="content">
+      <div class="window">
+        <div class="toolbar">
+          <div class="toolbar-icons">
+              <svg class="close" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.207 12.793-1.414 1.414L12 13.414l-2.793 2.793-1.414-1.414L10.586 12 7.793 9.207l1.414-1.414L12 10.586l2.793-2.793 1.414 1.414L13.414 12l2.793 2.793z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11H7v-2h10v2z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.293 12.707L12 10.414l-4.293 4.293-1.414-1.414L12 7.586l5.707 5.707-1.414 1.414z"></path></svg>
+            </div>
+            <center class="toolbar-name">giusb@ubuntu: ~</center>
+          </div>
+
+        <textarea class="window-content" spellcheck="false">giusb@ubuntu:~$ </textarea>
+      </div>
+    </div>
+  </body>
+</html>
